@@ -1,6 +1,9 @@
 type sensors_prop, property_type;
 type msm_irqbalance_prop, property_type;
 type camera_prop, property_type;
+type device_logging_prop, property_type;
+type mmc_prop, property_type;
+type safemode_prop, property_type;
 
 #properites for netd
 type netd_prop, property_type;

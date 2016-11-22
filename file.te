@@ -4,6 +4,12 @@ type firmware_file, fs_type, contextmount_type;
 #Define the qmux socket type
 type qmuxd_socket, file_type;
 
+#Define thermal type
+type sysfs_thermal, sysfs_type, fs_type;
+
+#Define uio type for rmt_storage
+type sysfs_uio, sysfs_type, fs_type;
+
 #Define the netmgrd socket type
 type netmgrd_socket, file_type;
 

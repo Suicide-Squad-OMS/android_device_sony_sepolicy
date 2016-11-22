@@ -7,6 +7,10 @@ allow system_server sensors:unix_stream_socket sendto;
 allow system_server sensors_socket:sock_file r_file_perms;
 qmux_socket(system_server);
 
+# Allow access to thermal
+allow system_server sysfs_thermal:dir search;
+allow system_server sysfs_thermal:file r_file_perms;
+
 #Allow access to netmgrd socket
 netmgr_socket(system_server);
 
